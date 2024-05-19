@@ -12,7 +12,6 @@ window.dataLayer = window.dataLayer || [];
 function gtag () { dataLayer.push(arguments); }
 
 gtag('js', new Date());
-
 gtag('config', 'G-7RK35HBXQ8');
 
 	</script>
@@ -20,7 +19,6 @@ gtag('config', 'G-7RK35HBXQ8');
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta name="yandex-verification" content="15beb50d85fd02db" />
-	<meta name='wmail-verification' content='085b55c20dcae243930a9f0d5d829c22' />
 	<meta name="msvalidate.01" content="C5789FCBAE175FBF3159429A31FA138A" />
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
@@ -48,45 +46,52 @@ body {
 	justify-content: center;
 	height: 100%;
 	margin: 0;
-}
-.center {
 	text-align: center;
 }
 h3 {
-	line-height: 1.5em;
+	font-size: 1.5em;
+	line-height: 1.3em;
+	margin-bottom: 0;
 }
-.contacts > a {
+a {
 	color: white;
-	display: inline-block;
-	margin-right: 2em;
-	padding-bottom: 1em;
+	font-weight: bolder;
 	text-decoration-style: dotted;
 }
-.contacts > a:last-child {
-	margin-right: 0;
+.contacts {
+	margin-bottom: 3em;
 }
 .main {
 	padding-left: 1em;
 	padding-right: 1em;
 }
+.links {
+	font-size: 1.2em;
+	line-height: 2em;
+}
 
 	</style>
-	<title>Web developer Kulyash Yuriy Vladimirovich (@rekzi)</title>
+	<title>Web developer Kulyash Yuriy V. (@rekzi)</title>
+	<meta name="description" content="Personal web-page of web-developer Kulyash Yuriy V. (@rekzi). Contacts and links.">
 </head>
 <body>
 
-<h3 class="main center"><nobr>Web developer</nobr> <nobr>Kulyash Yuriy Vladimirovich (@rekzi)</nobr></h3>
-<div class="main contacts center">
-	<a id="email" href="#"></a>
-	<a href="https://join.skype.com/invite/S7ZzSFAoFKK6">rekzi-skype</a>
-	<a href="https://t.me/rekzi_telegram">rekzi_telegram</a>
+<div class="main">
+	<h3><nobr>Web developer</nobr> <nobr>Kulyash Yuriy V. (@rekzi)</nobr></h3>
+	<p class="contacts">
+		Contacts: <a href="https://t.me/rekzi_telegram">@rekzi_telegram</a> OR <a id="email" href="#"></a>
+	</p>
+	<div class="links">
+		Telegram channel (RU, мои заметки) > <a href="https://t.me/webdevlight">Web, dev и прочее в IT</a><br/>
+		Github profile > <a href="https://github.com/rekzi">https://github.com/rekzi</a>
+	</div>
 </div>
 
 <script>
 
-setTimeout(function () {
+setTimeout(() => {
 	
-	var el = document.getElementById('email'),
+	const el = document.getElementById('email'),
 		name = 'rekzia',
 		domain = 'gmail.com';
 
